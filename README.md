@@ -5,7 +5,7 @@ The main author of the DistBDD paper can be contacted via w.h.m.oortwijn@utwente
 
 Prerequisites
 ---
-For best performance we recommend using an Infiniband network that supports Remote Direct Memory Access (RDMA), as the algorithms are specifically designed for RDMA uses. Nonetheless, also normal Ethernet networks and SMP clusters are supported. Furthermore, DistBDD has the following requirements:
+For best performance we recommend using an Infiniband network that supports Remote Direct Memory Access (RDMA), as the algorithms are specifically designed to target RDMA. Nonetheless, also standard Ethernet networks and SMP clusters are supported. Furthermore, DistBDD has the following requirements:
 - Berkeley UPC, version 2.20.2: http://upc.lbl.gov/
 - The GNU Compiler Collection (GCC), we used version 4.8.3
 
@@ -14,17 +14,24 @@ Configuring Berkeley UPC
 DistBDD requires UPC to be configured to handle large amounts of memory. A standard configuration will also work, but then the sizes of the shared data structures are limited to only a few megabytes. Configure UPC with the following options:
 - `./configure --without-mpi-cc --disable-aligned-segments --enable-allow-gcc4 --enable-sptr-struct --enable-pshm --disable-pshm-posix --enable-pshm-sysv`
 
-Note that this configuration disables MPI, as it assumes the use of RDMA. If you intend to run DistBDD on a network of machines that does not support Infiniband verbs (RDMA), then MPI can be used via the following configuration:
-- `./configure --disable-aligned-segments --enable-allow-gcc4 --enable-sptr-struct --enable-pshm --disable-pshm-posix --enable-pshm-sysv`
+Note that this configuration disables MPI, as it assumes the use of RDMA. If you intend to run DistBDD on a network of machines that does not support Infiniband verbs (RDMA), then the `--without-mpi-cc` option can be omitted.
 
 Compiling DistBDD
 ---
-The command: `./compile.sh mxm` will compile DistBDD to target the `mxm` (Mellanox Messaging Accelerator) communication library, which we used for our experimental evaluation. If `mxm` is not supported by your hardware, also `ibv` (Infiniband verbs), `mpi`, `udp`, and `smp` are supported.
+The following two commands will compile DistBDD to target the `mxm` (Mellanox Messaging Accelerator) communication library, which we used for our experimental evaluation:
 
-For the purely sequential (single machine, single-threaded) runs we used a different build. This build spawns a number of parallel threads on a single machine, so that each thread contributes to the shared data structures. Then, only the first thread becomes active to achieve a sequential run, and all other threads remain idle. The command: `/compile_seq.sh mxm` will compile DistDD for purely sequential runs.
+1. `./compile.sh mxm` (for parallel and distributed runs)
+2. `./compile_seq.sh mxm` (for purely sequential runs)
+
+The first command is used for parallel and distributed runs. The second command is for purely sequential (single machine, single-threaded) runs. For those runs we used a different build. This build spawns a number of parallel threads on a single machine, so that each thread contributes to the shared data structures. Then, only the first thread becomes active to achieve a sequential run, and all other threads remain idle.
+
+Moreover, if `mxm` is not supported by your hardware, also `ibv` (Infiniband verbs), `mpi`, `udp`, and `smp` are supported.
+
 
 Running DistBDD
 ---
-Single-machine runs can be executed via `./run.sh 4 at.5.8`, which performs reachability analysis over the `at.5.8` BEEM model by using 1 machine and 4 threads. Instead of `at.5.8`, also other models from the `models` folder can be picked.
+DistBDD can be executed via one of the two commands given below. With these commands, reachability analysis is performed over the `at.5.8` BEEM model. Instead of `at.5.8`, also any other model from the `models` folder can be picked:
 
-For runs that require more than one machine, we use the SLURM scheduler to set-up UPC on all participating machines. In that case, the command `./run_dist.sh 8 12 at.5.8` can be used, which runs DistBDD on 8 machines (with exclusive access), and 12 threads per machine. After completion, the result is written to the file `result/at.5.8/result-8-12.out`.
+1. `./run.sh 4 at.5.8`, which is used for single-machine runs. Reachability is then performed with 4 parallel threads.
+2. `./run_dist.sh 8 12 at.5.8`, which is used for distributed runs that use more than one machine. This command uses the SLURM scheduler to set-up UPC on all participating machines. The command executes DistBDD on 8 machines (with exclusive access), with 12 threads per machine. After completion, the result is written to the file `result/at.5.8/result-8-12.out`.
+

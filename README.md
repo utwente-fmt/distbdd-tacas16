@@ -18,9 +18,15 @@ Note that this configuration disables MPI, as it assumes the use of RDMA. If you
 
 Compiling DistBDD
 ---
-The command: `./compile.sh mxm` will compile DistBDD to target the `mxm` (Mellanox Messaging Accelerator) communication library, which we used for our experimental evaluation. If `mxm` is not supported by your hardware, also `ibv` (Infiniband verbs), `mpi`, `udp`, and `smp` are supported.
+The following two commands will compile DistBDD to target the `mxm` (Mellanox Messaging Accelerator) communication library, which we used for our experimental evaluation:
 
-For the purely sequential (single machine, single-threaded) runs we used a different build. This build spawns a number of parallel threads on a single machine, so that each thread contributes to the shared data structures. Then, only the first thread becomes active to achieve a sequential run, and all other threads remain idle. The command: `/compile_seq.sh mxm` will compile DistDD for purely sequential runs.
+1. `./compile.sh mxm` (for parallel and distributed runs)
+2. `./compile_seq.sh mxm` (for purely sequential runs)
+
+The first command is used for parallel and distributed runs. The second command is for purely sequential (single machine, single-threaded) runs. For those runs we used a different build. This build spawns a number of parallel threads on a single machine, so that each thread contributes to the shared data structures. Then, only the first thread becomes active to achieve a sequential run, and all other threads remain idle.
+
+Moreover, if `mxm` is not supported by your hardware, also `ibv` (Infiniband verbs), `mpi`, `udp`, and `smp` are supported.
+
 
 Running DistBDD
 ---

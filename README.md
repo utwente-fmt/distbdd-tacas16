@@ -27,4 +27,4 @@ Running DistBDD
 ---
 Single-machine runs can be executed via `./run.sh 4 at.5.8`, which performs reachability analysis over the `at.5.8` BEEM model by using 1 machine and 4 threads. Instead of `at.5.8`, also other models from the `models` folder can be picked.
 
-For runs that require more than one machine, we use the SLURM scheduler to set-up UPC on all participating machines. In that case, the command `./run_dist.sh 8 12 at.5.8` can be used, which runs DistBDD on 8 machines (with exclusive access), and 12 threads per machine. After completion, the result is written to the file `result/at.5.8/result-8-12.out`.
+For runs that require more than one machine, we use the SLURM scheduler to set-up UPC on all participating machines. In that case, the command `./run_dist.sh 8 12 at.5.8` can be used, which runs DistBDD on 8 machines (with exclusive access), with 12 threads per machine. After completion, the result is written to the file `result/at.5.8/result-8-12.out`.

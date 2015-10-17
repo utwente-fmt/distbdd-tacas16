@@ -30,7 +30,7 @@ Moreover, if `mxm` is not supported by your hardware, also `ibv` (Infiniband ver
 
 Running DistBDD
 ---
-DistBDD can be executed via one of the two commands given below. With these commands, reachability analysis is performed over the `at.5.8` BEEM model. Instead of `at.5.8`, also any other model from the `models` folder can be picked.
+DistBDD can be executed via one of the two commands given below. With these commands, reachability analysis is performed over the `at.5.8` BEEM model. Instead of `at.5.8`, also any other model from the `models` folder can be picked:
 
 1. `./run.sh 4 at.5.8`, which is used for single-machine runs. Reachability is then performed with 4 parallel threads.
 2. `./run_dist.sh 8 12 at.5.8`, which is used for distributed runs that use more than one machine. This command uses the SLURM scheduler to set-up UPC on all participating machines. The command executes DistBDD on 8 machines (with exclusive access), with 12 threads per machine. After completion, the result is written to the file `result/at.5.8/result-8-12.out`.

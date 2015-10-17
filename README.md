@@ -14,8 +14,7 @@ Configuring Berkeley UPC
 DistBDD requires UPC to be configured to handle large amounts of memory. A standard configuration will also work, but then the sizes of the shared data structures are limited to only a few megabytes. Configure UPC with the following options:
 - `./configure --without-mpi-cc --disable-aligned-segments --enable-allow-gcc4 --enable-sptr-struct --enable-pshm --disable-pshm-posix --enable-pshm-sysv`
 
-Note that this configuration disables MPI, as it assumes the use of RDMA. If you intend to run DistBDD on a network of machines that does not support Infiniband verbs (RDMA), then MPI can be used via the following configuration:
-- `./configure --disable-aligned-segments --enable-allow-gcc4 --enable-sptr-struct --enable-pshm --disable-pshm-posix --enable-pshm-sysv`
+Note that this configuration disables MPI, as it assumes the use of RDMA. If you intend to run DistBDD on a network of machines that does not support Infiniband verbs (RDMA), then the `--without-mpi-cc` option can be omitted.
 
 Compiling DistBDD
 ---

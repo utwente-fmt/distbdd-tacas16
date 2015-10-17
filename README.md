@@ -5,7 +5,7 @@ The main author of the DistBDD paper can be contacted via w.h.m.oortwijn@utwente
 
 Prerequisites
 ---
-For best performance we recommend using an Infiniband network that supports Remote Direct Memory Access (RDMA), as the algorithms are specifically designed for RDMA uses. Nonetheless, also normal Ethernet networks and SMP clusters are supported. Furthermore, DistBDD has the following requirements:
+For best performance we recommend using an Infiniband network that supports Remote Direct Memory Access (RDMA), as the algorithms are specifically designed to target RDMA. Nonetheless, also normal Ethernet networks and SMP clusters are supported. Furthermore, DistBDD has the following requirements:
 - Berkeley UPC, version 2.20.2: http://upc.lbl.gov/
 - The GNU Compiler Collection (GCC), we used version 4.8.3
 

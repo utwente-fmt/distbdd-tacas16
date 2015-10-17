@@ -1,0 +1,121 @@
+[1444253088.881816] [node053:11371:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 2595.94
+[1444253088.898319] [node053:11371:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1444253089.091584] [node054:9240 :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1453.41
+[1444253089.098689] [node054:9240 :0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread 0 of 2 on node053 (pshm node 0 of 2, process 0 of 2, pid=11371)
+UPCR: UPC thread 1 of 2 on node054 (pshm node 1 of 2, process 1 of 2, pid=9240)
+Initializing models/schedule_world.3.8-rgs.bdd!
+Vector size: 34
+Bits per integer: 8
+Number of BDD variables: 272
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+34 integers per state, 8 bits per integer, 34 transition groups
+BDD nodes:
+Initial states: 272 BDD nodes
+Transition 0: 230 BDD nodes
+Transition 1: 113 BDD nodes
+Transition 2: 96 BDD nodes
+Transition 3: 96 BDD nodes
+Transition 4: 107 BDD nodes
+Transition 5: 139 BDD nodes
+Transition 6: 96 BDD nodes
+Transition 7: 123 BDD nodes
+Transition 8: 91 BDD nodes
+Transition 9: 1008 BDD nodes
+Transition 10: 218 BDD nodes
+Transition 11: 141 BDD nodes
+Transition 12: 113 BDD nodes
+Transition 13: 96 BDD nodes
+Transition 14: 96 BDD nodes
+Transition 15: 123 BDD nodes
+Transition 16: 107 BDD nodes
+Transition 17: 91 BDD nodes
+Transition 18: 95 BDD nodes
+Transition 19: 95 BDD nodes
+Transition 20: 112 BDD nodes
+Transition 21: 112 BDD nodes
+Transition 22: 123 BDD nodes
+Transition 23: 123 BDD nodes
+Transition 24: 107 BDD nodes
+Transition 25: 107 BDD nodes
+Transition 26: 234 BDD nodes
+Transition 27: 234 BDD nodes
+Transition 28: 96 BDD nodes
+Transition 29: 96 BDD nodes
+Transition 30: 154 BDD nodes
+Transition 31: 154 BDD nodes
+Transition 32: 91 BDD nodes
+Transition 33: 91 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... Initializing models/schedule_world.3.8-rgs.bdd!
+Vector size: 34
+Bits per integer: 8
+Number of BDD variables: 272
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+34 integers per state, 8 bits per integer, 34 transition groups
+BDD nodes:
+Initial states: 272 BDD nodes
+Transition 0: 230 BDD nodes
+Transition 1: 113 BDD nodes
+Transition 2: 96 BDD nodes
+Transition 3: 96 BDD nodes
+Transition 4: 107 BDD nodes
+Transition 5: 139 BDD nodes
+Transition 6: 96 BDD nodes
+Transition 7: 123 BDD nodes
+Transition 8: 91 BDD nodes
+Transition 9: 1008 BDD nodes
+Transition 10: 218 BDD nodes
+Transition 11: 141 BDD nodes
+Transition 12: 113 BDD nodes
+Transition 13: 96 BDD nodes
+Transition 14: 96 BDD nodes
+Transition 15: 123 BDD nodes
+Transition 16: 107 BDD nodes
+Transition 17: 91 BDD nodes
+Transition 18: 95 BDD nodes
+Transition 19: 95 BDD nodes
+Transition 20: 112 BDD nodes
+Transition 21: 112 BDD nodes
+Transition 22: 123 BDD nodes
+Transition 23: 123 BDD nodes
+Transition 24: 107 BDD nodes
+Transition 25: 107 BDD nodes
+Transition 26: 234 BDD nodes
+Transition 27: 234 BDD nodes
+Transition 28: 96 BDD nodes
+Transition 29: 96 BDD nodes
+Transition 30: 154 BDD nodes
+Transition 31: 154 BDD nodes
+Transition 32: 91 BDD nodes
+Transition 33: 91 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 6... done. 
+Level 7... done. 
+Level 7... done. 
+Level 8... done. 
+Level 8... done. 
+Level 9... done. 
+Level 9... done. 
+Level 10... done. 
+Level 10... done. 
+Level 11... done. 
+Level 11... done. 
+Level 12... done. 
+Level 12... done. 
+Level 13... done. 
+Level 13... 0/2 - error: hash table full, load-factor~0.889836, chunk-size=150, attempts=27, inserted=59715869.000000
+[1444253091.365455] [node055:9985 :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1384.78
+1/2 - error: hash table full, load-factor~0.919213, chunk-size=277, attempts=14, inserted=61687366.000000
+[1444253088.782080] [node053:11326:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 2595.94

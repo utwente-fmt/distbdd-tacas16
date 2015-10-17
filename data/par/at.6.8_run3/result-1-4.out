@@ -1,0 +1,147 @@
+[1443862573.654675] [node032:31398:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1674.38
+[1443862573.667927] [node032:31398:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443862573.654425] [node032:31400:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1674.38
+[1443862573.668675] [node032:31400:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443862573.654184] [node032:31399:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1674.38
+[1443862573.667137] [node032:31399:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443862573.654190] [node032:31401:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1674.38
+[1443862573.664905] [node032:31401:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread 0 of 4 on node032 (pshm node 0 of 1, process 0 of 4, pid=31398)
+UPCR: UPC thread 2 of 4 on node032 (pshm node 0 of 1, process 2 of 4, pid=31400)
+UPCR: UPC thread 1 of 4 on node032 (pshm node 0 of 1, process 1 of 4, pid=31399)
+UPCR: UPC thread 3 of 4 on node032 (pshm node 0 of 1, process 3 of 4, pid=31401)
+Initializing models/at.6.8-rgs.bdd!
+Vector size: 14
+Bits per integer: 8
+Number of BDD variables: 112
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+14 integers per state, 8 bits per integer, 26 transition groups
+BDD nodes:
+Initial states: 112 BDD nodes
+Transition 0: 276 BDD nodes
+Transition 1: 199 BDD nodes
+Transition 2: 90 BDD nodes
+Transition 3: 172 BDD nodes
+Transition 4: 32 BDD nodes
+Transition 5: 32 BDD nodes
+Transition 6: 197 BDD nodes
+Transition 7: 90 BDD nodes
+Transition 8: 169 BDD nodes
+Transition 9: 32 BDD nodes
+Transition 10: 32 BDD nodes
+Transition 11: 206 BDD nodes
+Transition 12: 206 BDD nodes
+Transition 13: 256 BDD nodes
+Transition 14: 76 BDD nodes
+Transition 15: 32 BDD nodes
+Transition 16: 76 BDD nodes
+Transition 17: 32 BDD nodes
+Transition 18: 76 BDD nodes
+Transition 19: 32 BDD nodes
+Transition 20: 150 BDD nodes
+Transition 21: 32 BDD nodes
+Transition 22: 137 BDD nodes
+Transition 23: 126 BDD nodes
+Transition 24: 32 BDD nodes
+Transition 25: 32 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 7... done. 
+Level 8... done. 
+Level 9... done. 
+Level 10... done. 
+Level 11... done. 
+Level 12... done. 
+Level 13... done. 
+Level 14... done. 
+Level 15... done. 
+Level 16... done. 
+Level 17... done. 
+Level 18... done. 
+Level 19... done. 
+Level 20... done. 
+Level 21... done. 
+Level 22... done. 
+Level 23... done. 
+Level 24... done. 
+Level 25... done. 
+Level 26... done. 
+Level 27... done. 
+Level 28... done. 
+Level 29... done. 
+Level 30... done. 
+Level 31... done. 
+Level 32... done. 
+Level 33... done. 
+Level 34... done. 
+Level 35... done. 
+Level 36... done. 
+Level 37... done. 
+Level 38... done. 
+Level 39... done. 
+Level 40... done. 
+Level 41... done. 
+Level 42... done. 
+Level 43... done. 
+Level 44... done. 
+Level 45... done. 
+Level 46... done. 
+Level 47... done. 
+Level 48... done. 
+Level 49... done. 
+Level 50... done. 
+Level 51... done. 
+Level 52... done. 
+Level 53... done. 
+Level 54... done. 
+Level 55... done. 
+Level 56... done. 
+Level 57... done. 
+Level 58... done. 
+Level 59... done. 
+Level 60... done. 
+Level 61... done. 
+Level 62... done. 
+Level 63... done. 
+Level 64... done. 
+Level 65... done. 
+Level 66... done. 
+Level 67... done. 
+Level 68... done. 
+Level 69... done. 
+Level 70... done. 
+Level 71... done. 
+Level 72... done. 
+Level 73... done. 
+Level 74... done. 
+Level 75... done. 
+Level 76... done. 
+Level 77... done. 
+Level 78... done. 
+Level 79... done. 
+Level 80... done. 
+Level 81... done. 
+Level 82... done. 
+Level 83... done. 
+Level 84... done. 
+Level 85... done. 
+Level 86... done. 
+Level 87... done. 
+Level 88... done. 
+Level 89... done. 
+Level 90... done. 
+Level 91... done. 
+Level 92... done. 
+Level 93... done. 
+Level 94... done. 
+Level 95... done. 
+PAR Time: 114.908928
+Final states: 160589600 states
+Final states: 424124 BDD nodes
+[1443862573.637098] [node032:31353:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 3011.06

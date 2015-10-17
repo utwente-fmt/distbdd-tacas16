@@ -1,0 +1,101 @@
+[1443916873.138425] [node010:20959:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1485.38
+[1443916873.142496] [node010:20959:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443916873.138586] [node010:20961:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1485.38
+[1443916873.142619] [node010:20961:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443916873.138971] [node010:20958:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1485.38
+[1443916873.142798] [node010:20958:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443916873.138236] [node010:20960:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1485.38
+[1443916873.142199] [node010:20960:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread 3 of 4 on node010 (pshm node 0 of 1, process 3 of 4, pid=20961)
+UPCR: UPC thread 2 of 4 on node010 (pshm node 0 of 1, process 2 of 4, pid=20960)
+UPCR: UPC thread 0 of 4 on node010 (pshm node 0 of 1, process 0 of 4, pid=20958)
+UPCR: UPC thread 1 of 4 on node010 (pshm node 0 of 1, process 1 of 4, pid=20959)
+Initializing models/at.7.8-rgs.bdd!
+Vector size: 16
+Bits per integer: 8
+Number of BDD variables: 128
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+16 integers per state, 8 bits per integer, 31 transition groups
+BDD nodes:
+Initial states: 128 BDD nodes
+Transition 0: 348 BDD nodes
+Transition 1: 182 BDD nodes
+Transition 2: 94 BDD nodes
+Transition 3: 205 BDD nodes
+Transition 4: 32 BDD nodes
+Transition 5: 32 BDD nodes
+Transition 6: 182 BDD nodes
+Transition 7: 94 BDD nodes
+Transition 8: 205 BDD nodes
+Transition 9: 32 BDD nodes
+Transition 10: 32 BDD nodes
+Transition 11: 137 BDD nodes
+Transition 12: 144 BDD nodes
+Transition 13: 143 BDD nodes
+Transition 14: 136 BDD nodes
+Transition 15: 94 BDD nodes
+Transition 16: 203 BDD nodes
+Transition 17: 32 BDD nodes
+Transition 18: 32 BDD nodes
+Transition 19: 81 BDD nodes
+Transition 20: 32 BDD nodes
+Transition 21: 81 BDD nodes
+Transition 22: 32 BDD nodes
+Transition 23: 81 BDD nodes
+Transition 24: 32 BDD nodes
+Transition 25: 249 BDD nodes
+Transition 26: 32 BDD nodes
+Transition 27: 208 BDD nodes
+Transition 28: 273 BDD nodes
+Transition 29: 32 BDD nodes
+Transition 30: 32 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 7... done. 
+Level 8... done. 
+Level 9... done. 
+Level 10... done. 
+Level 11... done. 
+Level 12... done. 
+Level 13... done. 
+Level 14... done. 
+Level 15... done. 
+Level 16... done. 
+Level 17... done. 
+Level 18... done. 
+Level 19... done. 
+Level 20... done. 
+Level 21... done. 
+Level 22... done. 
+Level 23... done. 
+Level 24... done. 
+Level 25... done. 
+Level 26... done. 
+Level 27... done. 
+Level 28... done. 
+Level 29... done. 
+Level 30... done. 
+Level 31... done. 
+Level 32... done. 
+Level 33... done. 
+Level 34... done. 
+Level 35... done. 
+Level 36... done. 
+Level 37... done. 
+Level 38... done. 
+Level 39... done. 
+Level 40... done. 
+Level 41... done. 
+Level 42... done. 
+Level 43... done. 
+Level 44... 1/4 - error: hash table full, load-factor~0.916718, chunk-size=261, attempts=15, inserted=61519882.000000
+0/4 - error: hash table full, load-factor~0.886615, chunk-size=141, attempts=29, inserted=59499729.000000
+3/4 - error: hash table full, load-factor~0.894018, chunk-size=162, attempts=25, inserted=59996527.000000
+2/4 - error: hash table full, load-factor~0.890716, chunk-size=152, attempts=26, inserted=59774962.000000
+[1443916873.121669] [node010:20913:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1484.44

@@ -1,0 +1,99 @@
+[1443345057.334924] [node010:24544:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1497.28
+[1443345057.338969] [node010:24544:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443345057.553380] [node011:31864:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1398.38
+[1443345057.559619] [node011:31864:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread 0 of 2 on node010 (pshm node 0 of 2, process 0 of 2, pid=24544)
+UPCR: UPC thread 1 of 2 on node011 (pshm node 1 of 2, process 1 of 2, pid=31864)
+Initializing models/anderson.8.4-rgs.bdd!
+Vector size: 22
+Bits per integer: 4
+Number of BDD variables: 88
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+22 integers per state, 4 bits per integer, 21 transition groups
+BDD nodes:
+Initial states: 88 BDD nodes
+Transition 0: 789 BDD nodes
+Transition 1: 114 BDD nodes
+Transition 2: 32 BDD nodes
+Transition 3: 847 BDD nodes
+Transition 4: 209 BDD nodes
+Transition 5: 33 BDD nodes
+Transition 6: 847 BDD nodes
+Transition 7: 209 BDD nodes
+Transition 8: 33 BDD nodes
+Transition 9: 767 BDD nodes
+Transition 10: 709 BDD nodes
+Transition 11: 709 BDD nodes
+Transition 12: 709 BDD nodes
+Transition 13: 114 BDD nodes
+Transition 14: 32 BDD nodes
+Transition 15: 156 BDD nodes
+Transition 16: 156 BDD nodes
+Transition 17: 156 BDD nodes
+Transition 18: 33 BDD nodes
+Transition 19: 33 BDD nodes
+Transition 20: 33 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 7... done. 
+Level 8... done. 
+Level 9... done. 
+Level 10... done. 
+Level 11... done. 
+Level 12... done. 
+Level 13... done. 
+Level 14... done. 
+Level 15... done. 
+Level 16... done. 
+Level 17... done. 
+Level 18... done. 
+Level 19... done. 
+Level 20... done. 
+Level 21... done. 
+Level 22... done. 
+Level 23... done. 
+Level 24... done. 
+Level 25... done. 
+Level 26... done. 
+Level 27... done. 
+Level 28... done. 
+Level 29... done. 
+Level 30... done. 
+Level 31... done. 
+Level 32... done. 
+Level 33... done. 
+Level 34... done. 
+Level 35... done. 
+Level 36... done. 
+Level 37... done. 
+Level 38... done. 
+Level 39... done. 
+Level 40... done. 
+Level 41... done. 
+Level 42... done. 
+Level 43... done. 
+Level 44... done. 
+Level 45... done. 
+Level 46... done. 
+Level 47... done. 
+Level 48... done. 
+Level 49... done. 
+Level 50... done. 
+Level 51... done. 
+Level 52... done. 
+Level 53... done. 
+Level 54... done. 
+Level 55... done. 
+Level 56... done. 
+Level 57... done. 
+Level 58... done. 
+Level 59... done. 
+Level 60... done. 
+Level 61... done. 
+Level 62... [1443345057.318101] [node010:24499:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1497.28

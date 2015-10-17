@@ -1,0 +1,259 @@
+[1443988252.228604] [node016:10520:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1663.78
+[1443988252.234380] [node016:10520:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.228604] [node016:10521:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1663.78
+[1443988252.233885] [node016:10521:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.453759] [node019:24787:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1759.31
+[1443988252.457816] [node019:24787:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.453786] [node019:24786:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1759.31
+[1443988252.457726] [node019:24786:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.448463] [node022:23861:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1599.94
+[1443988252.457380] [node022:23861:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.448581] [node022:23857:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1599.94
+[1443988252.456616] [node022:23857:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.451748] [node020:20293:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1650.09
+[1443988252.459981] [node020:20293:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.451775] [node020:20292:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1650.09
+[1443988252.460779] [node020:20292:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.441229] [node018:9470 :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1498.50
+[1443988252.448772] [node018:9470 :0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.439603] [node018:9466 :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1498.50
+[1443988252.446722] [node018:9466 :0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.442906] [node017:25890:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1675.59
+[1443988252.451145] [node017:25890:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.442812] [node017:25894:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1675.59
+[1443988252.451946] [node017:25894:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.453138] [node021:28756:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 2743.59
+[1443988252.457243] [node021:28756:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.453505] [node021:28755:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 2743.59
+[1443988252.457078] [node021:28755:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.448502] [node023:844  :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 3191.81
+[1443988252.456493] [node023:844  :0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+[1443988252.447914] [node023:843  :0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 3191.81
+[1443988252.455715] [node023:843  :0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread  0 of 16 on node016 (pshm node 0 of 8, process  0 of 16, pid=10520)
+UPCR: UPC thread  1 of 16 on node016 (pshm node 0 of 8, process  1 of 16, pid=10521)
+UPCR: UPC thread  5 of 16 on node018 (pshm node 2 of 8, process  5 of 16, pid=9470)
+UPCR: UPC thread  4 of 16 on node018 (pshm node 2 of 8, process  4 of 16, pid=9466)
+UPCR: UPC thread  9 of 16 on node020 (pshm node 4 of 8, process  9 of 16, pid=20293)
+UPCR: UPC thread  8 of 16 on node020 (pshm node 4 of 8, process  8 of 16, pid=20292)
+UPCR: UPC thread 12 of 16 on node022 (pshm node 6 of 8, process 12 of 16, pid=23857)
+UPCR: UPC thread 13 of 16 on node022 (pshm node 6 of 8, process 13 of 16, pid=23861)
+UPCR: UPC thread 14 of 16 on node023 (pshm node 7 of 8, process 14 of 16, pid=844)
+UPCR: UPC thread  6 of 16 on node019 (pshm node 3 of 8, process  6 of 16, pid=24787)
+UPCR: UPC thread 15 of 16 on node023 (pshm node 7 of 8, process 15 of 16, pid=843)
+UPCR: UPC thread  7 of 16 on node019 (pshm node 3 of 8, process  7 of 16, pid=24786)
+UPCR: UPC thread 10 of 16 on node021 (pshm node 5 of 8, process 10 of 16, pid=28756)
+UPCR: UPC thread 11 of 16 on node021 (pshm node 5 of 8, process 11 of 16, pid=28755)
+UPCR: UPC thread  2 of 16 on node017 (pshm node 1 of 8, process  2 of 16, pid=25890)
+UPCR: UPC thread  3 of 16 on node017 (pshm node 1 of 8, process  3 of 16, pid=25894)
+Initializing models/collision.4.9-rgs.bdd!
+Vector size: 22
+Bits per integer: 9
+Number of BDD variables: 198
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+22 integers per state, 9 bits per integer, 29 transition groups
+BDD nodes:
+Initial states: 198 BDD nodes
+Transition 0: 526 BDD nodes
+Transition 1: 281 BDD nodes
+Transition 2: 134 BDD nodes
+Transition 3: 651 BDD nodes
+Transition 4: 670 BDD nodes
+Transition 5: 629 BDD nodes
+Transition 6: 672 BDD nodes
+Transition 7: 124 BDD nodes
+Transition 8: 61 BDD nodes
+Transition 9: 71 BDD nodes
+Transition 10: 71 BDD nodes
+Transition 11: 71 BDD nodes
+Transition 12: 71 BDD nodes
+Transition 13: 71 BDD nodes
+Transition 14: 60 BDD nodes
+Transition 15: 88 BDD nodes
+Transition 16: 71 BDD nodes
+Transition 17: 64 BDD nodes
+Transition 18: 88 BDD nodes
+Transition 19: 74 BDD nodes
+Transition 20: 60 BDD nodes
+Transition 21: 86 BDD nodes
+Transition 22: 71 BDD nodes
+Transition 23: 60 BDD nodes
+Transition 24: 88 BDD nodes
+Transition 25: 36 BDD nodes
+Transition 26: 36 BDD nodes
+Transition 27: 36 BDD nodes
+Transition 28: 36 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 7... done. 
+Level 8... done. 
+Level 9... done. 
+Level 10... done. 
+Level 11... done. 
+Level 12... done. 
+Level 13... done. 
+Level 14... done. 
+Level 15... done. 
+Level 16... done. 
+Level 17... done. 
+Level 18... done. 
+Level 19... done. 
+Level 20... done. 
+Level 21... done. 
+Level 22... done. 
+Level 23... done. 
+Level 24... done. 
+Level 25... done. 
+Level 26... done. 
+Level 27... done. 
+Level 28... done. 
+Level 29... done. 
+Level 30... done. 
+Level 31... done. 
+Level 32... done. 
+Level 33... done. 
+Level 34... done. 
+Level 35... done. 
+Level 36... done. 
+Level 37... done. 
+Level 38... done. 
+Level 39... done. 
+Level 40... done. 
+Level 41... done. 
+Level 42... done. 
+Level 43... done. 
+Level 44... done. 
+Level 45... done. 
+Level 46... done. 
+Level 47... done. 
+Level 48... done. 
+Level 49... done. 
+Level 50... done. 
+Level 51... done. 
+Level 52... done. 
+Level 53... done. 
+Level 54... done. 
+Level 55... done. 
+Level 56... done. 
+Level 57... done. 
+Level 58... done. 
+Level 59... done. 
+Level 60... done. 
+Level 61... done. 
+Level 62... done. 
+Level 63... done. 
+Level 64... done. 
+Level 65... done. 
+Level 66... done. 
+Level 67... done. 
+Level 68... done. 
+Level 69... done. 
+Level 70... done. 
+Level 71... done. 
+Level 72... done. 
+Level 73... done. 
+Level 74... done. 
+Level 75... done. 
+Level 76... done. 
+Level 77... done. 
+Level 78... done. 
+Level 79... done. 
+Level 80... done. 
+Level 81... done. 
+Level 82... done. 
+Level 83... done. 
+Level 84... done. 
+Level 85... done. 
+Level 86... done. 
+Level 87... done. 
+Level 88... done. 
+Level 89... done. 
+Level 90... done. 
+Level 91... done. 
+Level 92... done. 
+Level 93... done. 
+Level 94... done. 
+Level 95... done. 
+Level 96... done. 
+Level 97... done. 
+Level 98... done. 
+Level 99... done. 
+Level 100... done. 
+Level 101... done. 
+Level 102... done. 
+Level 103... done. 
+Level 104... done. 
+Level 105... done. 
+Level 106... done. 
+Level 107... done. 
+Level 108... done. 
+Level 109... done. 
+Level 110... done. 
+Level 111... done. 
+Level 112... done. 
+Level 113... done. 
+Level 114... done. 
+Level 115... done. 
+Level 116... done. 
+Level 117... done. 
+Level 118... done. 
+Level 119... done. 
+Level 120... done. 
+Level 121... done. 
+Level 122... done. 
+Level 123... done. 
+Level 124... done. 
+Level 125... done. 
+Level 126... done. 
+Level 127... done. 
+Level 128... done. 
+Level 129... done. 
+Level 130... done. 
+Level 131... done. 
+Level 132... done. 
+Level 133... done. 
+Level 134... done. 
+Level 135... done. 
+Level 136... done. 
+Level 137... done. 
+Level 138... done. 
+Level 139... done. 
+Level 140... done. 
+Level 141... done. 
+Level 142... done. 
+Level 143... done. 
+Level 144... done. 
+Level 145... done. 
+Level 146... done. 
+Level 147... done. 
+Level 148... done. 
+Level 149... done. 
+Level 150... done. 
+Level 151... done. 
+Level 152... done. 
+Level 153... done. 
+Level 154... done. 
+Level 155... done. 
+Level 156... done. 
+Level 157... done. 
+Level 158... done. 
+Level 159... done. 
+Level 160... done. 
+Level 161... done. 
+Level 162... done. 
+Level 163... done. 
+Level 164... done. 
+Level 165... done. 
+Level 166... done. 
+Level 167... done. 
+Level 168... done. 
+PAR Time: 327.739557
+Final states: 41465543 states
+Final states: 29791 BDD nodes
+[1443988252.208983] [node016:10475:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1525.97

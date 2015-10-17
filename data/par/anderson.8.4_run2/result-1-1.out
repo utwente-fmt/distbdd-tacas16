@@ -1,0 +1,82 @@
+[1443344516.596127] [node023:12794:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1495.59
+[1443344516.601778] [node023:12794:0]         mxm.c:185  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the heap size to the default value (10240) 
+UPCR: UPC thread 0 of 1 on node023 (pshm node 0 of 1, process 0 of 1, pid=12794)
+Initializing models/anderson.8.4-rgs.bdd!
+Vector size: 22
+Bits per integer: 4
+Number of BDD variables: 88
+Loading initial states: 
+Initial states loaded... 
+Loading transition relations... 
+22 integers per state, 4 bits per integer, 21 transition groups
+BDD nodes:
+Initial states: 88 BDD nodes
+Transition 0: 789 BDD nodes
+Transition 1: 114 BDD nodes
+Transition 2: 32 BDD nodes
+Transition 3: 847 BDD nodes
+Transition 4: 209 BDD nodes
+Transition 5: 33 BDD nodes
+Transition 6: 847 BDD nodes
+Transition 7: 209 BDD nodes
+Transition 8: 33 BDD nodes
+Transition 9: 767 BDD nodes
+Transition 10: 709 BDD nodes
+Transition 11: 709 BDD nodes
+Transition 12: 709 BDD nodes
+Transition 13: 114 BDD nodes
+Transition 14: 32 BDD nodes
+Transition 15: 156 BDD nodes
+Transition 16: 156 BDD nodes
+Transition 17: 156 BDD nodes
+Transition 18: 33 BDD nodes
+Transition 19: 33 BDD nodes
+Transition 20: 33 BDD nodes
+Level 1... done. 
+Level 2... done. 
+Level 3... done. 
+Level 4... done. 
+Level 5... done. 
+Level 6... done. 
+Level 7... done. 
+Level 8... done. 
+Level 9... done. 
+Level 10... done. 
+Level 11... done. 
+Level 12... done. 
+Level 13... done. 
+Level 14... done. 
+Level 15... done. 
+Level 16... done. 
+Level 17... done. 
+Level 18... done. 
+Level 19... done. 
+Level 20... done. 
+Level 21... done. 
+Level 22... done. 
+Level 23... done. 
+Level 24... done. 
+Level 25... done. 
+Level 26... done. 
+Level 27... done. 
+Level 28... done. 
+Level 29... done. 
+Level 30... done. 
+Level 31... done. 
+Level 32... done. 
+Level 33... done. 
+Level 34... done. 
+Level 35... done. 
+Level 36... done. 
+Level 37... done. 
+Level 38... done. 
+Level 39... done. 
+Level 40... done. 
+Level 41... done. 
+Level 42... done. 
+Level 43... done. 
+Level 44... done. 
+Level 45... done. 
+Level 46... done. 
+Level 47... 0/1 - error: hash table full, load-factor~0.948941, chunk-size=692, attempts=5, inserted=31841172.000000
+[1443344516.581068] [node023:12749:0]         sys.c:719  MXM  WARN  Conflicting CPU frequencies detected, using: 1495.59

@@ -1,0 +1,1 @@
+upcc main.c htable/htable.c varchain.c nodecache_empty.c localstore.c bdd.c cache.c wstealer/wstealer_seq.c -opt -O -pthreads=16 -network=$1 -o distbdd -I ./htable -I ./wstealer -I ./ -Wl,-Wl,-lpthread
